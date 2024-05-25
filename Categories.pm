@@ -7,6 +7,7 @@ use warnings;
 use Error::Pure qw(err);
 use Readonly;
 
+Readonly::Array our @EXPORT_OK => qw(categories category_items);
 Readonly::Hash our %CATEGORIES => (
 	'cache' => [
 		'Cache-Control',
